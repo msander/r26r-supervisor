@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/fetch/type.js"],"names":["PREFETCH","FETCH","DEFER"],"mappings":";;;;;AAAO,IAAMA,8BAAW,UAAjB;AACA,IAAMC,wBAAQ,OAAd;AACA,IAAMC,wBAAQ,OAAd","file":"type.js","sourcesContent":["export const PREFETCH = 'prefetch';\nexport const FETCH = 'fetch';\nexport const DEFER = 'defer';\n"]}
