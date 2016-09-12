@@ -54,7 +54,7 @@ const registerHook = ({ history, routes, store, getLocals, location, beforeResol
 
     match({ location, routes }, (error, redirectLocation, renderProps) => {
       if (redirectLocation) {
-        redirectLocation.action = "PUSH";
+        continueTransition();
         history.transitionTo(redirectLocation);
       } else if (renderProps) {
         const { components } = renderProps;
